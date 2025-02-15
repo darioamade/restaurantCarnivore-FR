@@ -1,0 +1,57 @@
+:root {
+  
+    --color-primary-white: #fff;
+    --color-primary: #d4d8d8;
+    --color-secondary: #000;
+    --color-black-light2: #0000;
+    --color-bg: #f5f3ed;
+    --color-main: #000;;
+    --color-grey-light: #0e0d0d31;
+    --color-grey-light-2: #737373;
+    --color-grey-light-3: #404040;
+    --color-grey-dark-1: rgb(0, 0, 0);
+    --color-grey-dark-2: #777;
+    --color-grey-dark-3: rgb(44, 41, 41);
+    --shadow-dark: 0 5rem 6rem rgba(0,0,0,.4);
+    --shadow-medium: 0 2rem 5rem rgba(0, 0, 0, 0.185);
+    --shadow-light: 0 2rem 5rem rgba(0,0,0,.16);
+    --line: 1px solid var(--color-grey-light-2); 
+  }
+
+  * {
+    margin: 0;
+    padding: 0; 
+    list-style: none;
+    outline: none;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+   }
+  
+  html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+   }
+  
+
+//    font-family: 'Neutra Text TF', sans-serif;
+// font-family: 'Neutra Text TF Light', sans-serif;
+
+   body {
+    font-family: 'Neutra Text TF Light', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.6;
+    color: #000;
+    background-color: #fff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  img{
+    display: block;
+    max-width: 100%;
+  }

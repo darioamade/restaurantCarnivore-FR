@@ -1,0 +1,314 @@
+
+//h1
+.main-title{
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 40px;
+    // font-size: calc(1.375rem + 1.5vw);
+    padding: 10px 0;
+    text-align: center;
+    color: var(--color-secondary);
+    @media (max-width:980px) {
+        font-size: 2.5rem;
+        font-size: calc(1.375rem + 1.5vw);
+   
+    }
+    @media (max-width:720px) {
+      font-size: calc(2.375rem + 1.5vw);
+ 
+  }
+}
+
+.sec-title {
+    font-size: calc(2.2rem + 1.5vw);
+    line-height: 31px;
+    letter-spacing: 0px;
+    font-weight: 300;
+    color: var(--color-secondary);
+    text-align: center;
+    width: 100%;
+    padding: 20px 0px;
+}
+
+.third-title {
+    font-family: 'Neutra Text TF Light', sans-serif;
+    font-size: 28px;
+    line-height: 31px;
+    letter-spacing: 0px;
+    font-weight: 300;
+    color: var(--color-black-light2);
+    color: black;
+    text-align: center;
+    width: 100%;
+    padding: 10px 0px;
+    @media (max-width:720px) {
+      font-size: calc(1.775rem + 1.5vw);
+ 
+  }
+ 
+}
+.four-title{
+  font-family: sans-serif;
+  font-weight: 300;
+  color: #fff;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 1.2px;
+  margin-top: 10px;
+
+
+}
+
+p{
+    font-family: 'Neutra Text TF Light', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    color: var(--color-black-light2);
+    font-weight: 400 ;
+    
+}
+
+.text-line{
+  font-family: 'Neutra Text TF Light', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  color: var(--color-secondary);
+  font-weight: 400 ;
+  
+}
+
+
+
+.button_center,
+.button_center_black {
+    align-items: center;
+    margin: 2% 0;
+    justify-content: center;
+    padding-top: 2rem;
+   
+}
+
+.button_center a,
+.button_center_black a {
+    min-width: 200px;
+    text-align: center;
+    padding: 12px 25px;
+    border-radius: 6px;
+    text-decoration: none;
+    height: 45px;
+    background-color: var(--color-primary-white);
+    color: var(--color-main);
+    font-weight: 400;
+    font-size: 18px;
+    border: .4px solid #ccc;
+}
+.button_center_black a {
+    background-color: var(--color-main);
+    color: var(--color-primary-white);
+}
+
+.button_center a:hover {
+    background-color: var(--color-main);
+    color: var(--color-primary-white);
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 0 2rem 5rem rgba(204, 203, 203, 0.1);
+  }
+
+  .button_center_black a:hover{
+    background-color: var(--color-primary-white);
+    color: var(--color-main);
+    border: .5px solid rgb(60, 60, 60);
+    box-shadow: 0 2rem 5rem rgba(68, 68, 68, 0.1);
+  }
+
+
+
+ // Btn styles
+
+ .book-now{
+    flex: 1;
+    flex-shrink: 1;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:end;
+    align-items: center;
+    @media (max-width: 768px){
+       justify-content:center;
+    }
+  
+  }
+
+  .header .book-now {
+    @media (max-width: 768px){
+      justify-content:end;
+   }
+  }
+
+
+
+
+  .banner-btn, .banner-btn-white {
+      padding: 1.6rem 4rem;
+      background-color: var(--color-secondary);
+      border: 1px solid rgb(66, 83, 97);
+      border-radius: 0rem;
+      font-weight: 400;
+      font-family: 'Neutra Text TF Light', sans-serif;
+      font-style: normal;
+      font-size: 1.4rem;
+      letter-spacing: 2px;
+      color: rgb(252, 245, 245);
+      cursor: pointer;
+      text-transform: uppercase;
+      box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.1);
+      transition: all 0.2s;
+      border-radius: none;
+      border-radius: 6px;
+      &.banner-btn:hover {
+          background-color: var(--color-primary-white);
+          color: var(--color-secondary);
+        }
+  
+        @media screen and (max-width: 877px) {
+          padding: 2rem 3rem;
+      }
+     
+      @media screen and (max-width: 768px) {
+        padding:  1.2rem 2.5rem;
+        // padding: 0px;
+        border-radius: 5px;
+        max-width: 150px;
+        max-width: none;
+        height: 40px;
+        font-weight: 400;
+        font-size: 1.2rem;
+        min-width: 80px;
+    
+      }
+      @media screen and (max-width: 428px) {
+      padding:  1rem 2.2rem;
+      padding:  1rem 1.1rem; // test
+      min-width: 60px;
+      font-size: 1.1rem;
+    }
+    // @media screen and (max-width: 375px) {
+    //     padding: 0rem;
+    //   }
+  }
+  .banner-btn-white{
+    background-color: var(--color-primary-white);
+    box-shadow: none;
+    color: #000;
+    border: 1px solid rgb(255, 255, 255);
+    &.banner-btn:hover {
+      background-color: var(--color-secondary);
+      color: var(--color-secondary);
+    }
+  }
+
+ .find-us{
+    width: 100vw;
+    background-color: var(--color-main);
+ }
+
+ .btn-active{
+    display: none;
+
+  }
+
+.marginTop{
+  @media screen and (max-width: 560px) {
+    margin-top: 0px;
+  }
+
+}
+
+
+.header   .banner-btn {
+    @media screen and (max-width: 375px) {
+        padding: 0rem;
+      }
+}
+
+.form-btn-sub{
+  padding: 2rem;
+}
+
+
+.process-booking  .banner-btn,
+.section-intro  .banner-btn{
+  @media screen and (max-width: 768px) {
+    padding: 14px;
+    padding: 10px; // test
+  }
+}
+
+.addPadding {
+  padding: 4% 2%;
+}
+
+.noPadding{
+  padding: 0% 2%;
+}
+
+.text-with {
+ max-width: 788px;
+ margin: 0 auto;
+}
+
+
+
+
+
+.btn-white {
+  min-width: 128px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 33px;
+  line-height: 1;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: center;
+  font-weight: 400;
+  font-family: 'Neutra Text TF Light', sans-serif;;
+  letter-spacing: 2px;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  border-radius: .25rem;
+  background: var(--color-primary-white);
+  // @media screen and (max-width: 768px) {
+  //   font-size: calc(12px + 100vw* 0);
+  // }
+  &.btn-white:hover{
+    color: var(--color-primary-white);
+    box-shadow: inset 0 -3.7em 0 0 var(--color-secondary);
+    background-color: #000;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  }
+  
+  
+
+
+}
+
+
+
+// @media (max-width: 1619.98px) {
+ 
+//       min-width: 141px;
+    
+// }
+
+
+
+
+// 
